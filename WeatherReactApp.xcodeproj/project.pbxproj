@@ -13,6 +13,8 @@
 		9F2D3ED32725837700001266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D3ED12725837700001266 /* Main.storyboard */; };
 		9F2D3ED52725837900001266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D3ED42725837900001266 /* Assets.xcassets */; };
 		9F2D3ED82725837900001266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D3ED62725837900001266 /* LaunchScreen.storyboard */; };
+		9F2D3EE42725896F00001266 /* CustomNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D3EE32725896F00001266 /* CustomNotification.swift */; };
+		9F2D3EE627258D1F00001266 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D3EE527258D1F00001266 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9F2D3ED42725837900001266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F2D3ED72725837900001266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2D3ED92725837900001266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2D3EE32725896F00001266 /* CustomNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotification.swift; sourceTree = "<group>"; };
+		9F2D3EE527258D1F00001266 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		9F2D3EDF2725839600001266 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F2D3EE527258D1F00001266 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -78,6 +83,7 @@
 		9F2D3EE0272583A000001266 /* Notification Center */ = {
 			isa = PBXGroup;
 			children = (
+				9F2D3EE32725896F00001266 /* CustomNotification.swift */,
 			);
 			path = "Notification Center";
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2D3ED02725837700001266 /* ViewController.swift in Sources */,
+				9F2D3EE42725896F00001266 /* CustomNotification.swift in Sources */,
+				9F2D3EE627258D1F00001266 /* MainView.swift in Sources */,
 				9F2D3ECC2725837700001266 /* AppDelegate.swift in Sources */,
 				9F2D3ECE2725837700001266 /* SceneDelegate.swift in Sources */,
 			);
