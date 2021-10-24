@@ -56,15 +56,47 @@
 		9F2D3ECA2725837700001266 /* WeatherReactApp */ = {
 			isa = PBXGroup;
 			children = (
-				9F2D3ECB2725837700001266 /* AppDelegate.swift */,
-				9F2D3ECD2725837700001266 /* SceneDelegate.swift */,
-				9F2D3ECF2725837700001266 /* ViewController.swift */,
+				9F2D3EE2272583C100001266 /* Other */,
+				9F2D3EE1272583AC00001266 /* VC */,
+				9F2D3EE0272583A000001266 /* Notification Center */,
+				9F2D3EDF2725839600001266 /* View */,
 				9F2D3ED12725837700001266 /* Main.storyboard */,
 				9F2D3ED42725837900001266 /* Assets.xcassets */,
 				9F2D3ED62725837900001266 /* LaunchScreen.storyboard */,
 				9F2D3ED92725837900001266 /* Info.plist */,
 			);
 			path = WeatherReactApp;
+			sourceTree = "<group>";
+		};
+		9F2D3EDF2725839600001266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F2D3EE0272583A000001266 /* Notification Center */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Notification Center";
+			sourceTree = "<group>";
+		};
+		9F2D3EE1272583AC00001266 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9F2D3ECF2725837700001266 /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9F2D3EE2272583C100001266 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F2D3ECB2725837700001266 /* AppDelegate.swift */,
+				9F2D3ECD2725837700001266 /* SceneDelegate.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
